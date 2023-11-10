@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classiq+</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        @font-face {
+            font-family: Casual;
+            src: url('"E:\code\Projects\Whiteboard\Casual-Regular.ttf"')  format('truetype');
+          }          
+        body{
+            background-color:#2f2f33;
+        }
+        h1{
+            font-family:Casual;
+            color:cadetblue;
+            font-size: 48px;
+
+        }
+        #board{
+            width:100vw;
+            height:100vh;
+            position: absolute;
+            z-index: -1;
+        }
+        nav{
+            position: absolute; 
+            top: 0; 
+            left: 0;
+            padding: 15px; 
+            z-index: 1;
+        }
+    </style>
+    <script>
+       
+    </script>
+</head>
+<body>
+    <nav>
+        <h1>Classiq+</h1>
+    </nav>
+    <div id="board">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.494/build/spline-viewer.js"></script>
+        <spline-viewer loading-anim url="https://prod.spline.design/MRULHkoNYrDAPG01/scene.splinecode"></spline-viewer>
+
+        <!-- React Code
+        import Spline from '@splinetool/react-spline';
+        export default function App() {
+        return (
+        <Spline scene="https://prod.spline.design/MRULHkoNYrDAPG01/scene.splinecode" />
+         ); 
+        }    -->
+        
+    </div>
+
+</body>
+</html>
