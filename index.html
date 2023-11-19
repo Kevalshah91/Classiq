@@ -3,31 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Live Stream</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>YouTube Live Stream</h1>
-    
-    <form id="streamForm" action="/start_stream" method="post" onsubmit="requestCameraPermission()">
-        <label for="streamKey">Enter Stream Key:</label>
-        <input type="text" id="streamKey" name="streamKey" required>
-        <br>
-        <button type="submit">Start Stream</button>
-    </form>
-
-    <script>
-        function requestCameraPermission() {
-            navigator.mediaDevices.getUserMedia({ video: true })
-                .then((stream) => {
-                    // User granted access, you can handle this if needed
-                    console.log('Camera access granted');
-                    stream.getTracks().forEach(track => track.stop());
-                })
-                .catch((error) => {
-                    // User denied access or an error occurred
-                    console.error('Camera access denied or error:', error);
-                });
-        }
-    </script>
+    <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 </body>
 </html>
