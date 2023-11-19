@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        body{
+            background-color:#2f2f33;
+        }
+        canvas{
+            width:90vw;
+            height:80vh;
+            border:2px solid black;
+            background-color: white;
+        }
+        #desmos{
+            height:75px;
+            width: 75px;
+            border:none;
+            background: none;
+        }
+        #desmosimg{
+            width: 75px;
+            border-radius: 15px;
+            opacity:1;
+        }
+        #calculator{
+            position:absolute;
+            left:60vw;
+            top:100px;
+            display: none; /* Initially hide the calculator */
+        }
+
+    </style>
+
+</head>
+<body>
+    <canvas></canvas>
+    <button id="desmos" onclick="toggleDesmos()"><img src="desmos.png"  id="desmosimg"></button>
+    <div id="calculator" style="width: 500px; height: 500px;"></div>
+
+    <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script>
+        var calculatorVisible = false; // Flag to track calculator visibility
+        var elt = document.getElementById('calculator');
+        var calculator = Desmos.GraphingCalculator(elt);
+        function toggleDesmos() {
+
+            // Toggle the visibility of the calculator
+            if (calculatorVisible) {
+                document.getElementById('calculator').style.display = 'none';
+                document.getElementById('desmosimg').style.opacity = 1;
+            } else {
+                document.getElementById('calculator').style.display = 'block';
+                document.getElementById('desmosimg').style.opacity = 0.8;
+
+            }
+
+            calculatorVisible = !calculatorVisible;
+        }
+    </script>
+</body>
+</html>
