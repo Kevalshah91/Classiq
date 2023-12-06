@@ -65,7 +65,7 @@ Welcome to Classiq+, an innovative EduTech solution developed by Team Masala Dos
 
 ## Team Members
 
-- Sayantan Mukherjee
+
 - Rajat Masanagi
 - Keval Shah
 
