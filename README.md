@@ -1,7 +1,14 @@
+
+
 # Classiq+
 
 Here is a demo link to explore our results:
+
 https://drive.google.com/drive/u/0/folders/11T9dA8tLYK21ICf428N0CHEgykA1ZZwj
+
+Here is a ppt encapsulating screenshots of all the features:
+
+https://docs.google.com/presentation/d/1MoL2FSWcDnbCIY93j0YwJGtodrcO5n41/edit?usp=sharing&ouid=116263193390283014171&rtpof=true&sd=true
 
 ## Overview
 
@@ -12,18 +19,33 @@ Welcome to Classiq+, an innovative EduTech solution developed by Team Masala Dos
 1. **YouTube Streaming Integration:**
    - Explore a vast library of educational content through seamless YouTube streaming.
    - Empower educators to curate and share relevant videos, enriching the virtual classroom experience.
+  
+     ![PHOTO-2023-12-06-19-20-10](https://github.com/user-attachments/assets/45fd4c41-f95a-41f5-9c3b-3dc0487ed80e)
+
+     https://github.com/user-attachments/assets/3039c4c9-8c31-41cb-b9a5-44f0a750bc01
+
 
 2. **Offline-to-Online Board Display (CV Integration):**
    - Experience a smooth transition from physical to digital classrooms using cutting-edge computer vision technology.
    - Share handwritten content in real-time, breaking down barriers between offline and online learning.
+  
+     ![WhatsApp Image 2024-09-10 at 14 06 35](https://github.com/user-attachments/assets/9f58bf72-fd9a-402d-ab5e-6c7bf075d948)
+
+     https://github.com/user-attachments/assets/3e39d1f7-0a1f-4769-bfce-e2155ed03073
+
 
 3. **Interactive Whiteboard:**
    - Engage students with a feature-rich interactive whiteboard, fostering collaboration and participation.
    - Unleash creativity with tools for drawing, text input, and object manipulation, creating an interactive and immersive learning environment.
+  
+     ![PHOTO-2023-12-06-19-08-36](https://github.com/user-attachments/assets/8be8db76-3e65-4178-b075-9f1911e422fb)
 
 4. **Graph-Making Feature:**
    - Simplify complex data representation with a dedicated graph-making tool.
    - Enable students and educators to visualize and analyze data effortlessly, enhancing understanding in mathematics and other quantitative subjects.
+  
+     ![PHOTO-2023-12-06-19-01-43](https://github.com/user-attachments/assets/4e887e5d-2b98-4cc9-b92d-8cc2c6771f34)
+
 
 ## Usage
 
